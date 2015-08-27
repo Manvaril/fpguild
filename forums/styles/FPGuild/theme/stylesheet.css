@@ -1,0 +1,83 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			prosilver (the default phpBB 3.1.x style)
+	Based on style:		
+	Original author:	Tom Beddard ( http://www.subblue.com/ )
+	Modified by:		phpBB Limited ( https://www.phpbb.com/ )
+    --------------------------------------------------------------
+*/
+
+@import url("common.css");
+@import url("links.css");
+@import url("content.css");
+@import url("buttons.css");
+@import url("cp.css");
+@import url("forms.css");
+@import url("colours.css");
+@import url("imageset.css");
+
+#wrapper {
+    border: 1px solid #FFF;
+    background-color: #44456f;
+    width: 1022px;
+    border-radius: 7px;
+    margin: 10px auto 10px auto;
+}
+
+.menu {
+    border-bottom: 1px solid #FFF;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li a:link {
+    display: block;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #44456f;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu li a:visited {
+    display: block;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #44456f;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu li a:hover {
+    background-color: #FFF;
+    color: #000;
+
+}
+
+#header {
+    border-bottom: 1px solid #FFF;
+    height: 200px;
+}
+
+#footer {
+    color: #FFF;
+    border-top: 1px solid #FFF;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}
