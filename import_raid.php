@@ -56,6 +56,9 @@ get_admin_groups($admin_ary, $grp_ids);
                     <form action="import_raid.php?add=1" method="post">
                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                             <tr>
+                                <td colspan="2" class="text_normal red">*** Make sure you add FRPS to the raid ***</td>
+                            </tr>
+                            <tr>
                                 <td width="25%" class="text_normal">Event</td>
                                 <td width="75%" class="text_normal">
                                     <select name="event_id">
